@@ -2,8 +2,6 @@
 
 ### Autonomous Creator Growth Platform powered by Multi-Agent AI
 
-![RateGenius AI Banner](https://via.placeholder.com/1200x400?text=RateGenius+AI)
-
 ## 📌 Overview
 
 RateGenius AI is an intelligent creator-growth platform that helps influencers, creators, brands, and marketing agencies make data-driven decisions through AI-powered automation.
