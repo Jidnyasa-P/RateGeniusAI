@@ -1,0 +1,6 @@
+{
+  "name": "RateGenius AI",
+  "description": "Premium creator growth, analytics, and virality prediction platform for modern brands and influencers.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
