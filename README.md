@@ -1,6 +1,6 @@
 # 🚀 RateGenius AI
 
-Autonomous Creator Growth Platform Powered by Multi-Agent AI
+### Autonomous Creator Growth Platform Powered by Multi-Agent AI
 
 ## 📖 Overview
 
@@ -16,19 +16,19 @@ Unlike traditional influencer platforms that rely on vanity metrics such as foll
 
 Influencer marketing has become one of the fastest-growing marketing channels, yet brands and creators continue to face significant challenges.
 
-Brands struggle with:
+### Brands struggle with:
 
-- Identifying authentic influencers
-- Detecting fake followers and engagement
-- Predicting campaign success
-- Finding emerging creators before they become mainstream
+* Identifying authentic influencers
+* Detecting fake followers and engagement
+* Predicting campaign success
+* Finding emerging creators before they become mainstream
 
-Creators struggle with:
+### Creators struggle with:
 
-- Discovering trending topics
-- Generating engaging content consistently
-- Predicting content performance
-- Finding suitable brand collaborations
+* Discovering trending topics
+* Generating engaging content consistently
+* Predicting content performance
+* Finding suitable brand collaborations
 
 Current solutions are fragmented, reactive, and heavily dependent on manual research.
 
@@ -38,12 +38,12 @@ Current solutions are fragmented, reactive, and heavily dependent on manual rese
 
 RateGenius AI provides an end-to-end AI-powered ecosystem that enables:
 
-- Trend Discovery
-- Influencer Analysis
-- Content Generation
-- Virality Prediction
-- Brand Matching
-- Growth Recommendations
+* Trend Discovery
+* Influencer Analysis
+* Content Generation
+* Virality Prediction
+* Brand Matching
+* Growth Recommendations
 
 The platform leverages autonomous AI agents that collaborate to generate insights and recommendations in real time.
 
@@ -57,10 +57,10 @@ Discover emerging trends before they become saturated.
 
 Features:
 
-- Trend Discovery
-- Opportunity Detection
-- Trend Scoring
-- Growth Velocity Analysis
+* Trend Discovery
+* Opportunity Detection
+* Trend Scoring
+* Growth Velocity Analysis
 
 ---
 
@@ -70,12 +70,12 @@ Generate platform-ready content instantly.
 
 Generate:
 
-- Reel Scripts
-- Hooks
-- LinkedIn Posts
-- Instagram Captions
-- Hashtags
-- Calls-to-Action
+* Reel Scripts
+* Hooks
+* LinkedIn Posts
+* Instagram Captions
+* Hashtags
+* Calls-to-Action
 
 ---
 
@@ -85,11 +85,11 @@ Predict content performance before publishing.
 
 Outputs:
 
-- Expected Reach
-- Expected Likes
-- Expected Shares
-- Expected Saves
-- Virality Score
+* Expected Reach
+* Expected Likes
+* Expected Shares
+* Expected Saves
+* Virality Score
 
 ---
 
@@ -99,11 +99,11 @@ Analyze creators using AI-powered metrics.
 
 Metrics:
 
-- Authenticity Score
-- Engagement Score
-- Audience Quality
-- Growth Potential
-- Posting Consistency
+* Authenticity Score
+* Engagement Score
+* Audience Quality
+* Growth Potential
+* Posting Consistency
 
 ---
 
@@ -113,9 +113,9 @@ Find the most suitable brand partnerships.
 
 Outputs:
 
-- Brand Match Score
-- Audience Alignment
-- Campaign Success Probability
+* Brand Match Score
+* Audience Alignment
+* Campaign Success Probability
 
 ---
 
@@ -125,16 +125,17 @@ A personalized AI growth advisor.
 
 Provides:
 
-- Content Recommendations
-- Posting Strategy
-- Growth Opportunities
-- Brand Recommendations
-- Creator Roadmap
+* Content Recommendations
+* Posting Strategy
+* Growth Opportunities
+* Brand Recommendations
+* Creator Roadmap
 
 ---
 
 ## 🏗️ System Architecture
 
+```text
 Frontend (Next.js + React)
             │
             ▼
@@ -164,80 +165,82 @@ Agent      Agent      Agent
             ▼
 
       Firebase DB
+```
 
 ---
 
-### 🤖 Multi-Agent Architecture
+## 🤖 Multi-Agent Architecture
 
-Trend Agent
-
-Responsibilities:
-
-- Discover emerging trends
-- Analyze opportunities
-- Generate Trend Scores
-
-Content Agent
+### Trend Agent
 
 Responsibilities:
 
-- Generate scripts
-- Create social media posts
-- Generate captions and hashtags
+* Discover emerging trends
+* Analyze opportunities
+* Generate Trend Scores
 
-Virality Agent
-
-Responsibilities:
-
-- Predict engagement
-- Estimate reach
-- Generate Virality Scores
-
-Brand Match Agent
+### Content Agent
 
 Responsibilities:
 
-- Match creators with brands
-- Calculate partnership compatibility
-- Estimate campaign success
+* Generate scripts
+* Create social media posts
+* Generate captions and hashtags
+
+### Virality Agent
+
+Responsibilities:
+
+* Predict engagement
+* Estimate reach
+* Generate Virality Scores
+
+### Brand Match Agent
+
+Responsibilities:
+
+* Match creators with brands
+* Calculate partnership compatibility
+* Estimate campaign success
 
 ---
 
 ## 🛠️ Technology Stack
 
-Frontend
+### Frontend
 
-- React.js
-- Next.js
-- Tailwind CSS
-- ShadCN UI
-- Framer Motion
-- Recharts
+* React.js
+* Next.js
+* Tailwind CSS
+* ShadCN UI
+* Framer Motion
+* Recharts
 
-Backend
+### Backend
 
-- Python
-- FastAPI
+* Python
+* FastAPI
 
-AI & Agents
+### AI & Agents
 
-- CrewAI
-- Gemini 2.5 Flash
+* CrewAI
+* Gemini 2.5 Flash
 
-Database
+### Database
 
-- Firebase Firestore
-- Firebase Authentication
+* Firebase Firestore
+* Firebase Authentication
 
-Deployment
+### Deployment
 
-- Vercel
-- Render
+* Vercel
+* Render
 
 ---
 
 ## 📂 Project Structure
 
+```bash
 RateGeniusAI/
 │
 ├── frontend/
@@ -262,141 +265,164 @@ RateGeniusAI/
 │   └── app.py
 │
 └── README.md
+```
 
 ---
 
 ## 🚀 Installation
 
-Clone Repository
+### Clone Repository
 
+```bash
 git clone https://github.com/your-username/rategenius-ai.git
 
 cd rategenius-ai
+```
 
 ---
 
-Backend Setup
+### Backend Setup
 
+```bash
 cd backend
 
 pip install -r requirements.txt
+```
 
-Create a ".env" file:
+Create a `.env` file:
 
+```env
 GEMINI_API_KEY=your_api_key
 
 FIREBASE_API_KEY=your_key
 
 FIREBASE_PROJECT_ID=your_project_id
+```
 
 Run backend:
 
+```bash
 uvicorn app:app --reload
+```
 
 ---
 
-Frontend Setup
+### Frontend Setup
 
+```bash
 cd frontend
 
 npm install
+```
 
 Run frontend:
 
+```bash
 npm run dev
+```
 
 ---
 
-🔌 API Endpoints
+## 🔌 API Endpoints
 
-Trend Discovery
+### Trend Discovery
 
+```http
 POST /api/trends
+```
 
-Content Generation
+### Content Generation
 
+```http
 POST /api/generate-content
+```
 
-Virality Prediction
+### Virality Prediction
 
+```http
 POST /api/predict-virality
+```
 
-Brand Matching
+### Brand Matching
 
+```http
 POST /api/brand-match
+```
 
-Creator Twin
+### Creator Twin
 
+```http
 POST /api/creator-twin
+```
 
 ---
 
 ## 📊 Results
 
-Trend Discovery
+### Trend Discovery
 
-- Detects high-growth content opportunities
-- Generates trend scores
+* Detects high-growth content opportunities
+* Generates trend scores
 
-Content Generation
+### Content Generation
 
-- Produces ready-to-publish content
-- Reduces content creation time
+* Produces ready-to-publish content
+* Reduces content creation time
 
-Virality Prediction
+### Virality Prediction
 
-- Estimates engagement metrics
-- Helps creators optimize content before publishing
+* Estimates engagement metrics
+* Helps creators optimize content before publishing
 
-Brand Matching
+### Brand Matching
 
-- Recommends relevant brand partnerships
-- Improves collaboration success rates
+* Recommends relevant brand partnerships
+* Improves collaboration success rates
 
 ---
 
 ## 🌟 Future Enhancements
 
-Short-Term
+### Short-Term
 
-- Instagram API Integration
-- YouTube Analytics
-- TikTok Trend Monitoring
-- Advanced Influencer Scoring
+* Instagram API Integration
+* YouTube Analytics
+* TikTok Trend Monitoring
+* Advanced Influencer Scoring
 
-Medium-Term
+### Medium-Term
 
-- AI Video Generation
-- Voiceover Generation
-- Automated Publishing
+* AI Video Generation
+* Voiceover Generation
+* Automated Publishing
 
-Long-Term
+### Long-Term
 
-- Autonomous Creator Growth Agent
-- Self-Learning Recommendation Engine
-- Creator Performance Feedback Loops
+* Autonomous Creator Growth Agent
+* Self-Learning Recommendation Engine
+* Creator Performance Feedback Loops
 
 ---
 
 ## 🌍 Business Impact
 
-For Brands
+### For Brands
 
-- Better creator discovery
-- Reduced campaign risk
-- Improved ROI
+* Better creator discovery
+* Reduced campaign risk
+* Improved ROI
 
-For Creators
+### For Creators
 
-- Faster content creation
-- Smarter growth decisions
-- Better monetization opportunities
+* Faster content creation
+* Smarter growth decisions
+* Better monetization opportunities
 
-For Agencies
+### For Agencies
 
-- Streamlined influencer management
-- Automated campaign planning
-- Improved creator-brand matching
+* Streamlined influencer management
+* Automated campaign planning
+* Improved creator-brand matching
 
 ---
 
@@ -404,11 +430,11 @@ For Agencies
 
 Developed using:
 
-- CrewAI
-- Gemini AI
-- React
-- FastAPI
-- Firebase
+* CrewAI
+* Gemini AI
+* React
+* FastAPI
+* Firebase
 
 ---
 
